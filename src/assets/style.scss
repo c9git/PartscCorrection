@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@import "reset";
+@import "~vue-image-lightbox/dist/vue-image-lightbox.min.css";
+
+body {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #333;
+        color: #fff;
+    }
+}
